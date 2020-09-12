@@ -20,7 +20,7 @@ import java.util.HashMap;
 
 @Configuration
 @EnableJpaRepositories(entityManagerFactoryRef = "db1roEntityManager", basePackages = "com.examBuddy.ExamBuddy.database.mysql.dao", transactionManagerRef = "db1roTransactionManager")
-public class MysqlROConfiguration {
+public class MysqlConfiguration {
 
 	@Autowired
 	private ConfigUtils configUtils;
